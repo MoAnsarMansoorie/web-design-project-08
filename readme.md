@@ -1,8 +1,8 @@
 # Crush Your Competition
 
-![badge](https://img.shields.io/badge/project--08-web%20design-brightgreen)
+## ![badge](https://img.shields.io/badge/project--08-web%20design-brightgreen)
 
-[Link of deploy live project]()
+# [Link of deploy live project](https://webdesignpage.netlify.app/)
 
 ![LCO](./view08.png)
 
