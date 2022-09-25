@@ -110,3 +110,20 @@ nav img{
     height: 40rem;
 }
 
+@media screen and (max-width:768px){
+
+    .nav-item{
+        display: none;
+    }
+
+    .intro-section{
+        display: flex;
+        flex-direction: column;
+        padding-top: 15rem;
+    }
+
+    .imgs-div{
+        margin-left: -3rem;
+        margin-top: 5rem;
+    }
+}
