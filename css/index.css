@@ -46,7 +46,7 @@ nav img{
     margin-right: 2rem;
 }
 
-.signin-btn{
+.signin{
     background: linear-gradient(to right, #965cf2, #ff8adc);
     padding: 1rem;
     border-radius: 10px;
@@ -56,7 +56,7 @@ nav img{
 
 /*hero section*/
 
-.intro-section{
+.hero-section{
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -79,7 +79,7 @@ nav img{
 
 }
 
-.learn-more-btn{
+.learnmore{
     padding: 0.6rem 1rem 0.6rem 1rem;
     background: linear-gradient(to right, #965cf2, #ff8adc);
     border-radius: 10px;
@@ -93,20 +93,20 @@ nav img{
 
 /*image section*/
 
-.vector-img{
+.img1{
     position: absolute;
     bottom: 3rem;
     right: 50vw;
     
 }
 
-.vector-dot{
+.dot{
     position: absolute;
     right: 51vw;
     bottom: 9rem;
 }
 
-[alt="intro-img"]{
+[alt="imglast"]{
     height: 40rem;
 }
 
@@ -116,14 +116,24 @@ nav img{
         display: none;
     }
 
-    .intro-section{
+    .hero-section{
         display: flex;
         flex-direction: column;
-        padding-top: 15rem;
+        padding-top: 10rem;
     }
 
     .imgs-div{
         margin-left: -3rem;
         margin-top: 5rem;
     }
+
+    .imglast{
+        height: 20rem;
+    }
+
+    .img1{
+        margin-top: 55rem;
+    }
+
+
 }
